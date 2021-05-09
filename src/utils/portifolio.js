@@ -1,12 +1,5 @@
 const portifolio = [
   {
-    title: 'Site Wdev',
-    description:
-      'Projeto desenvolvido no trreinamento de Vue.js 2, simples, porém oo intuíto é fixar meu aprendizado.',
-    image: require('@/assets/images/wdev.png'),
-    link: 'https://silas06-vue-wdev.netlify.app'
-  },
-  {
     title: 'Site Awax',
     description:
       'Projeto desenvolvido no treinamento de css3 flex-box , responsivo',
@@ -47,6 +40,13 @@ const portifolio = [
       'Projeto desenvolvido no treinamento de Vue.js 3 instruido por Igor Halfeld, é uma aplicação que pode ser integrada a outros sites, permitindo aos usuários interagir dando sugestões, fazendo reclamações ou elogios. Obs: em desenvolvimento!',
     image: require('@/assets/images/feedbacker.png'),
     link: 'https://silas06-feedbacker-dashboard.netlify.app'
+  },
+  {
+    title: 'Site Wdev',
+    description:
+      'Projeto desenvolvido no trreinamento de Vue.js 2, simples, porém oo intuíto é fixar meu aprendizado.',
+    image: require('@/assets/images/wdev.png'),
+    link: 'https://silas06-vue-wdev.netlify.app'
   }
 ]
 

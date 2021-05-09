@@ -14,9 +14,6 @@
           <p class="card-text">
             {{ projeto.description }}
           </p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
         </div>
       </a>
     </div>
