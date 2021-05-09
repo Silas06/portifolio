@@ -6,10 +6,10 @@
         <nav>
           <ul class="nav ">
             <li class="nav-item ">
-              <a class="nav-link text-white active" href="">Home</a>
+              <router-link :to="{ name: 'Home' }" class="nav-link text-white active" href="">Home</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="">Portifólio</a>
+              <router-link :to="{ name: 'Portifolio' }" class="nav-link text-white">Portifólio</router-link>
             </li>
             <li classs="nav-item">
               <a class="nav-link text-white" href="">Contato</a>

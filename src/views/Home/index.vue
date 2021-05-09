@@ -28,8 +28,9 @@ export default {}
 </script>
 
 <style scoped>
-h1 {
-  color: var(--color-blue);
+
+p{
+color: #0A3757;
 }
 .p-bottom {
   max-width: 600px;

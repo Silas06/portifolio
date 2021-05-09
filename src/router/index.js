@@ -8,6 +8,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home')
+  },
+  {
+    path: '/portifolio',
+    name: 'Portifolio',
+    component: () => import('../views/Portifolio')
   }
   // {
   //   path: '/about',
