@@ -11,9 +11,6 @@
             <li class="nav-item">
               <router-link :to="{ name: 'Portifolio' }" class="nav-link text-white">Portifólio</router-link>
             </li>
-            <li classs="nav-item">
-              <a class="nav-link text-white" href="">Contato</a>
-            </li>
           </ul>
         </nav>
       </div>
