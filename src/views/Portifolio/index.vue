@@ -5,6 +5,7 @@
     <div class="card-group pt-4">
       <a :href="projeto.link" target="_blank"  class="card shadow" v-for="projeto in portifolio" :key="projeto.title">
         <img
+          class="img-fluid"
           :src="projeto.image"
           :title="projeto.title"
           :alt="projeto.title"
